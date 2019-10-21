@@ -403,7 +403,7 @@ config OVMS_COMP_MCP2515
         Enable to include support for MCP2515 CAN controllers (can2, can3).
 
 config OVMS_COMP_EXTERNAL_SWCAN
-    bool "Include support for external SWCAN module (swcan bus)"
+    bool "Include support for external SWCAN module (can4 bus)"
     default n
     depends on OVMS
     help
